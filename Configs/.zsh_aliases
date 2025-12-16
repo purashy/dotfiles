@@ -1,0 +1,20 @@
+### NeoVim over Vim
+alias vim='nvim'
+
+### Weather
+alias weather='curl "wttr.in/?format=Temp:+%t+|+%c+%C\n"'
+
+### MetaData (exiv2)
+alias metadata='exiv2 '
+
+### Bat over Cat
+alias cat='bat '
+alias ls='lsd --color=auto'
+alias grep='grep --color=auto'
+alias dig='dog '
+alias df='duf '
+alias du='dust'
+
+### Anime & Manga
+alias anime='ani-cli '
+alias manga='manga-cli'

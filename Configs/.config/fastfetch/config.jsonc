@@ -1,0 +1,74 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "~/.config/fastfetch/ascii.txt",
+            "color": {
+        "1": "38;2;255;105;180",
+    }
+    },
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+        "break",
+        "break",
+        {
+            "type": "os",
+            "key": " ",
+            "keyColor": "blue",
+        },
+        {
+            "type": "kernel",
+            "key": " ",
+            "keyColor": "red",
+        },
+        {
+            "type": "packages",
+            "key": " ",
+            "keyColor": "green",
+        },
+        {
+            "type": "shell",
+            "key": " ",
+            "keyColor": "1",
+        },
+        {
+            "type": "de",
+            "key": " ",
+            "keyColor": "1"
+        },
+        {
+            "type": "cpu",
+            "key": "󰍛 ",
+            "format": "{1}",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "gpu",
+            "key": "󰍛 ",
+            "format": "{2}",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "memory",
+            "key": "󰍛 ",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "uptime",
+            "key": "  up  | ",
+            "keyColor": "cyan",
+        },
+        {
+            "type": "command",
+            "key": "  age | ",
+            "keyColor": "cyan",
+            "text" : "birth_install=$(stat -c %W /); current=$(date +%s); days_difference=$(( (current - birth_install) / 86400 )); echo $days_difference days",
+        },
+        {
+            "type": "media",
+            "key": "🎵",
+            "playerName": "org.mpris.MediaPlayer2.Feishin",
+        },
+        ]
+}
