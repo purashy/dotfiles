@@ -9,5 +9,8 @@ cd purafiles
 
 Copy the files:
 ```
-cp -r Configs/* ~/
+cp -r Wallpapers ~/Pictures
+cd Configs
+cp -r . ~/
+cd ~
 ```
