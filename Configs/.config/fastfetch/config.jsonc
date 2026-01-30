@@ -68,7 +68,7 @@
         {
             "type": "media",
             "key": "🎵",
-            "playerName": "org.mpris.MediaPlayer2.Feishin",
+            "playerName": "org.mpris.MediaPlayer2.spotify",
         },
         ]
 }

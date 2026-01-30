@@ -18,3 +18,26 @@ alias du='dust'
 ### Anime & Manga
 alias anime='ani-cli '
 alias manga='manga-cli'
+
+### SSH into stuff
+alias berserk='kitten ssh berserk'
+alias puck='kitten ssh puck'
+alias npm='kitten ssh npm'
+alias ads='kitten ssh ads'
+alias vpn='kitten ssh vpn'
+alias music='kitten ssh music'
+alias nas='kitten ssh nas'
+alias ytdl='kitten ssh ytdl'
+alias nicotine='kitten ssh nicotine'
+alias photos='kitten ssh photos'
+alias hytale='kitten ssh hytale'
+alias torrents='kitten ssh torrents'
+
+alias pass='kitten ssh pass'
+alias dav='kitten ssh dav'
+alias notes='kitten ssh notes'
+alias n8n='kitten ssh n8n'
+alias pdf='kitten ssh pdf'
+
+alias ai='/mnt/data/audioai/venv/bin/python /mnt/data/audioai/main.py'
+alias gog='lgogdownloader'
