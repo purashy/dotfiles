@@ -79,9 +79,9 @@ sudo mount -a
 
 These dotfiles are primarily intended for:
 
-**OS:** Arch Linux
-**Shell:** Zsh
-**Editor:** Nano
-**Terminal:** Kitty
-**System information:** Fastfetch
+**OS:** Arch Linux  
+**Shell:** Zsh  
+**Editor:** Nano  
+**Terminal:** Kitty  
+**System information:** Fastfetch  
 **Network shares:** Samba / CIFS
